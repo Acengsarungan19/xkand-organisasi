@@ -1,0 +1,208 @@
+/*..style..*/
+body{font: 16px/26px;
+     font-style: arial;
+     background-color: #eaeaea;}
+
+.container{width: 960px;
+           height: 800px;
+           margin: auto;
+           background-color: #fff;}
+
+.header{padding: 110px;
+
+        padding-bottom: 0px;
+        margin-top: 0px;
+        background-image: url(gambar/fot.JPG);
+        }
+
+a{font-family: comic sans ms;
+  font-size: 13px;
+  text-decoration: none;
+  color: blue;
+   }
+a :hover {color: #33ff33;}
+
+h2{font-size: 10px;
+  font-family: comic sans ms;
+  text-align: center;
+  border-bottom: 7px;
+  margin-top: 9px;
+  color: red;}
+
+.menu {background: red;  
+     margin    : auto; }
+
+.menu ul {padding: 0; 
+        margin : 0;}
+.menu ul li {display      :inline; 
+
+           margin-left  :10px; 
+           line-height  : -50px; 
+           font-size    : 15px; 
+           border       :5px solid #eee; 
+           padding      :7px 10px; 
+           border-radius:10px;
+           text-decoration: none; 
+           border-spacing:  3px;
+           background   :red;  }
+.menu ul li:hover {background: #33ff33; }
+.menu ul li a {color:#000000;
+          }
+
+.hero{height: 110px;
+
+      background-image: url(gambar/gb1.jpg);
+      background-size: cover;
+      background-position: 0 0px;
+      border-top:13px solid red;
+      border-bottom: 5px solid red; }
+
+.hero1{height: 110px;
+      background-image: url(gambar/gb2.jpg);
+      background-size: cover;
+      background-position: 0 0px;
+      border-top:13px solid red;
+      border-bottom: 5px solid red; }
+
+.hero2{height: 110px;
+      background-image: url(gambar/gb4.jpg);
+      background-size: cover;
+      background-position: 0 0px;
+      border-top:13px solid red;
+      border-bottom: 5px solid red; }
+
+
+.hero3{height: 110px;
+      background-image: url(gambar/gb5.jpg);
+      background-size: cover;
+      background-position: 0 0px;
+      border-top:13px solid red;
+      border-bottom: 5px solid red; }
+
+
+.kanan{width: 600px;
+
+	    height:500px;
+	   box-sizing: border-box;
+	   float: left; 
+     }
+.kanan img{float: left;
+           margin-top: 13px;
+           margin-left: 15px;
+           margin-right: 10px;}
+.kanan a{color: blue;
+         font-size: 13px;
+         margin-top: -3px;}
+.kanan a :hover {color: red;}
+.kanan h2{font-size: 20px;
+            font-weight: bold;
+            margin-left: 15px;
+            margin-top: 0px;}
+.kanan h3{margin-left: 40px;
+          margin-bottom: 5px;
+          margin-top: -7px;
+          color: green;}
+
+.kanan .xkand{font-size: 11px;
+	            font-weight: italic;
+                 margin-top: -5px;}
+
+.kanan p{font-size: 15px;
+         margin-left: 15px;
+         margin-right: 10px;
+         text-align: justify;}
+.kanan ul{margin-left: 15px;
+          margin-top: -5px;
+          }
+.kanan ul :hover {color: red;}
+
+.kiri .kiri2 p{margin-right: 17px;
+              margin-top: 7px;
+              text-align: justify;
+                }
+
+.kiri .kiri0 p{
+              margin-top: 15px;
+              
+                }
+
+.kiri{width: 340px;
+      height: 200px;
+      border-top: 6px;
+      float: left;
+      box-sizing: border-box;}
+
+.kiri .kiri1{width: 320;
+            height: 200;
+            background-image: url(gambar/kiri.jpg);
+            border-top: 5px;
+            }
+.kiri .kiri1-1{width: 30;
+            height: 250;
+            background-image: url(gambar/kiri.jpg);
+            margin-top: 35px;
+            }
+.kiri video{margin-bottom: -3px;}
+.kiri .kiri2 img{float: left;
+                 float-left:3;
+                margin-top: 0;}
+
+.kiri .kiri0 img{float: left;
+                margin-top: 1px;
+                margin-right: 5px;}
+.kiri .kiri2. .gif{float: left;
+         margin-right: 20px;}
+
+.footer{background-color: #333;
+        padding: 10px;}
+.kiri h2{margin-bottom: 2px;
+         margin-top: 5px;
+         font-size: 20px;
+         text-align: left;
+         color: #006600;}
+.kiri ul{margin-top: 2px;}
+.kiri ul :hover {color: #33ff33;}
+
+.footer .copy{color: #eaeaea;
+              text-align: center;}
+
+.cf:before,
+.cf:after{
+	content: "";
+	display: table;
+    }
+
+.cf:after{
+	clear: both;
+    }
+.cf:{
+	*zoom: 1;
+}
+
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .menu
+    {
+        width: 50%;
+    }
+ 
+    .content cf
+    {
+        float: none;
+    }
+ 
+    .menu-tengah
+    {
+        width: 68%;
+        float: right;
+    }
+ 
+    .menu-kanan
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
+ 
